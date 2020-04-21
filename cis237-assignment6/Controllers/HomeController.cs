@@ -10,8 +10,12 @@ namespace cis237_assignment6.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.MyJumbotron = "Welcome to the Beverage Program! We have a variety of options to pick from. Click the about page for more info, contact for contacting us, and Beverage for our full list.";
+
             return View();
         }
+
+
 
         public ActionResult About()
         {
@@ -23,6 +27,13 @@ namespace cis237_assignment6.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Beverages()
+        {
+            ViewBag.Message = "Your Beverages page.";
 
             return View();
         }

@@ -18,6 +18,23 @@ namespace cis237_assignment6
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute(
+                name: "About",
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "About", action = "About", id = UrlParameter.Optional }
+            );
+            routes.MapRoute(
+                name: "Contact",
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "Contact", action = "Contact", id = UrlParameter.Optional }
+            );
+            routes.MapRoute(
+                name: "Beverages",
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "Beverages", action = "Beverages", id = UrlParameter.Optional }
+            );
+            
         }
     }
 }
