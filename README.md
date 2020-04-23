@@ -4,7 +4,7 @@
 
 ## Author
 
-
+Gabriel Soto
 
 ## Description
 
@@ -135,6 +135,7 @@ the culprit, but I don't know which ones.
 
 ## Outside Resources Used
 
-
+InClass videos
 
 ## Known Problems, Issues, And/Or Errors in the Program
+None
